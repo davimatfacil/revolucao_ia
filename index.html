@@ -264,7 +264,15 @@
             <h2 style="text-align: center; font-size: 1.8rem; color: #667eea;">
                 De Chats Simples aos Model Context Protocols (MCPs)
             </h2>
-            <div class="timeline">
+            <div class="timeline" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+                <div class="timeline-item">
+                    <h4>2010-2020</h4>
+                    <p><strong>Era Deep Learning</strong><br>Revolução das Redes Neurais</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>2020-2022</h4>
+                    <p><strong>Era dos LLMs</strong><br>GPT-3, Transformers</p>
+                </div>
                 <div class="timeline-item">
                     <h4>2022-2023</h4>
                     <p><strong>Era dos Chats</strong><br>ChatGPT, Claude básico</p>
@@ -280,19 +288,131 @@
             </div>
         </div>
 
-        <!-- Slide 2: Era dos Chats Simples -->
+        <!-- Slide 2: Era do Deep Learning -->
         <div class="slide">
-            <h2><span class="icon">💬</span>Era 1: Os Primeiros Chats (2022-2023)</h2>
+            <h2><span class="icon">🧠</span>Era 0: A Revolução do Deep Learning (2010-2020)</h2>
             
             <div class="evolution-step">
-                <h3>Como Funcionava</h3>
-                <p>Os primeiros modelos como GPT eram <strong>aplicações IA básicas</strong> - uma ponte simples entre usuário e modelo de linguagem:</p>
+                <h3>O Motor da IA Moderna</h3>
+                <p>Antes de falarmos de chats e MCPs, precisamos entender <strong>como chegamos até aqui</strong>:</p>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>🎯 2012 - ImageNet</h4>
+                        <p>AlexNet mostra o poder das CNNs<br><strong>Deep Learning explode!</strong></p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🔄 2017 - Transformers</h4>
+                        <p>"Attention Is All You Need"<br><strong>Arquitetura revolucionária</strong></p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>📚 2018-2019 - BERT/GPT</h4>
+                        <p>Primeiros LLMs poderosos<br><strong>IA entende linguagem</strong></p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🚀 2020 - GPT-3</h4>
+                        <p>175 bilhões de parâmetros<br><strong>IA que conversa!</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="solution-box">
+                <h3>🎯 O Breakthrough</h3>
+                <p>Pela primeira vez na história, tínhamos <strong>modelos que realmente entendiam e geravam linguagem natural</strong> de forma convincente. A base estava pronta para a revolução dos chats!</p>
+            </div>
+
+            <div class="comparison">
+                <div class="comparison-item before">
+                    <h4>❌ Antes (2010)</h4>
+                    <p><strong>IA "Burra"</strong><br>
+                    Sistemas especialistas, regras fixas, não entendia contexto</p>
+                </div>
+                <div class="comparison-item after">
+                    <h4>✅ Depois (2020)</h4>
+                    <p><strong>IA "Inteligente"</strong><br>
+                    Aprende padrões, entende contexto, gera respostas naturais</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Era dos LLMs -->
+        <div class="slide">
+            <h2><span class="icon">🤖</span>Era 1: Os Grandes Modelos (2020-2022)</h2>
+            
+            <div class="evolution-step">
+                <h3>A Preparação para o Boom</h3>
+                <p>Entre 2020-2022, os <strong>Large Language Models (LLMs)</strong> evoluíram rapidamente:</p>
+                <div class="code-block">
+GPT-3 (2020) → 175B parâmetros
+PaLM (2022) → 540B parâmetros  
+ChatGPT treinamento → RLHF (Reinforcement Learning from Human Feedback)
+Claude → Constitutional AI
+                </div>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>🎓 Capacidades</h4>
+                    <p><strong>Entendimento profundo</strong><br>
+                    Contexto, nuances, raciocínio</p>
+                </div>
+                <div class="feature-card">
+                    <h4>💬 Conversação</h4>
+                    <p><strong>Diálogo natural</strong><br>
+                    Como falar com um humano</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🎯 Especialização</h4>
+                    <p><strong>Fine-tuning</strong><br>
+                    Modelos para tarefas específicas</p>
+                </div>
+                <div class="feature-card">
+                    <h4>⚡ Velocidade</h4>
+                    <p><strong>Inferência rápida</strong><br>
+                    Respostas em tempo real</p>
+                </div>
+            </div>
+
+            <div class="problem-box">
+                <h3>🚨 Mas Havia Um Problema</h3>
+                <p><strong>Os modelos eram poderosos, mas ainda inacessíveis!</strong></p>
+                <ul style="margin-top: 10px; color: white;">
+                    <li>❌ APIs complexas e caras</li>
+                    <li>❌ Só para desenvolvedores</li>
+                    <li>❌ Interface técnica demais</li>
+                    <li>❌ Público geral não conseguia usar</li>
+                </ul>
+            </div>
+
+            <div style="text-align: center; margin: 30px 0;">
+                <h3 class="highlight">Faltava uma interface amigável...</h3>
+                <p style="font-size: 1.2rem; color: #666;">E foi aí que veio o ChatGPT! 🚀</p>
+            </div>
+        </div>
+
+        <!-- Slide 4: Era dos Chats Simples -->
+        <div class="slide">
+            <h2><span class="icon">💬</span>Era 2: Os Primeiros Chats (2022-2023)</h2>
+            
+            <div class="evolution-step">
+                <h3>A Democratização da IA</h3>
+                <p>Em novembro de 2022, o <strong>ChatGPT</strong> mudou tudo! Pela primeira vez, qualquer pessoa podia conversar com IA de forma natural. Os primeiros chats eram <strong>aplicações IA básicas</strong> - uma ponte simples entre usuário e modelo:</p>
                 <div class="code-block">
 1. Usuário escreve uma mensagem
 2. Backend junta com system prompt  
 3. Modelo processa e responde
 4. Resposta aparece na tela
                 </div>
+            </div>
+
+            <div class="solution-box">
+                <h3>🎉 O Boom da IA</h3>
+                <p><strong>100 milhões de usuários em 2 meses!</strong></p>
+                <ul style="margin-top: 10px; color: white;">
+                    <li>✅ Interface super simples</li>
+                    <li>✅ Qualquer pessoa podia usar</li>
+                    <li>✅ Respostas impressionantes</li>
+                    <li>✅ Grátis para experimentar</li>
+                </ul>
             </div>
 
             <div class="problem-box">
@@ -318,9 +438,9 @@
             </div>
         </div>
 
-        <!-- Slide 3: Era das Tools -->
+        <!-- Slide 5: Era das Tools -->
         <div class="slide">
-            <h2><span class="icon">🛠️</span>Era 2: Entrada das Tools (2023-2024)</h2>
+            <h2><span class="icon">🛠️</span>Era 3: Entrada das Tools (2023-2024)</h2>
             
             <div class="evolution-step">
                 <h3>A Revolução dos Agents e Tools</h3>
@@ -370,7 +490,7 @@
             </div>
         </div>
 
-        <!-- Slide 4: O Caos das Integrações -->
+        <!-- Slide 6: O Caos das Integrações -->
         <div class="slide">
             <h2><span class="icon">🌪️</span>O Caos das Integrações</h2>
             
@@ -417,9 +537,9 @@
             </div>
         </div>
 
-        <!-- Slide 5: Era dos MCPs -->
+        <!-- Slide 7: Era dos MCPs -->
         <div class="slide">
-            <h2><span class="icon">🎯</span>Era 3: Model Context Protocol (2024-2025)</h2>
+            <h2><span class="icon">🎯</span>Era 4: Model Context Protocol (2024-2025)</h2>
             
             <div class="solution-box">
                 <h3>🎉 A Revolução do MCP</h3>
@@ -459,7 +579,7 @@
             </div>
         </div>
 
-        <!-- Slide 6: Gigantes que Adotaram -->
+        <!-- Slide 8: Gigantes que Adotaram -->
         <div class="slide">
             <h2><span class="icon">🏢</span>Quem Já Embarcou no MCP?</h2>
             
@@ -507,7 +627,7 @@
             </div>
         </div>
 
-        <!-- Slide 7: Exemplo Prático -->
+        <!-- Slide 9: Exemplo Prático -->
         <div class="slide">
             <h2><span class="icon">📊</span>Exemplo Prático: Google Drive + Análise de Dados</h2>
             
@@ -552,7 +672,7 @@
             </div>
         </div>
 
-        <!-- Slide 8: Conclusão -->
+        <!-- Slide 10: Conclusão -->
         <div class="slide">
             <h2><span class="icon">🎊</span>O Futuro É Agora</h2>
             
